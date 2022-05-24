@@ -1,0 +1,470 @@
+
+   
+body {
+  background-image: url(./assets/background.jpeg);
+  font-family: Verdana;
+  text-align: center;
+
+}
+.ap{
+  flex:1;
+      flex-direction: row;
+      align-items:center;
+      justify-content:center;
+}
+
+.auth1{
+  white-space:nowrap;
+   margin-left:110px
+}
+
+
+@viewport {
+width: device-width ;
+zoom: 1.0 ;
+}
+
+
+@-ms-viewport {
+width: device-width ;
+}  
+
+.forml{
+  vertical-align: middle;
+    padding-top: 4px;
+    align-items: center;
+}
+
+
+.twitterContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 50px;
+  background: #3E58A5;
+  position: relative;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  cursor: pointer;
+  margin: 10px;
+  background: #1C9CEA;
+  border-radius: 8px;
+}
+
+.lg{
+
+  margin-left: 200px;
+}
+.twitterContainer img {
+  width: 15%;
+  left: 14px;
+  width: 12.5%;
+  height: 100%;
+  object-fit: contain;
+  left: 10px;
+  border-radius: 3px;
+  position: absolute;
+}
+
+.imgcenter {
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding-bottom: -200px;
+}
+::placeholder{
+  font-size: 10.7px;
+  ;
+}
+
+h1{
+
+  font-size: 19px;
+}		
+
+h2{
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+h5{
+  font-family: Verdana;
+  text-align: left;
+  font-size: 12px;
+  padding-top: -20;
+  font-weight: lighter;
+  margin-bottom: 0%;
+  margin-top:0.5%;
+  clear: both;
+  color: #777;
+}
+
+p{
+  font-family: Verdana;
+  text-align: left;
+  font-size: 14px;
+}
+
+h3{
+  font-family: Verdana;
+  text-align: left;
+  font-weight: lighter;
+}
+
+
+.head{
+width: 970px;
+}
+
+
+
+
+
+form {
+  background-color: #fff; opacity: 0.94;
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 30px 80px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+  
+  
+}
+
+
+.form-control {
+
+text-align: left;
+margin-bottom: 25px;
+}
+
+
+.form-control label {
+display: block;
+margin-bottom: 10px;
+font-size: 20px;
+font-weight: bold;
+}
+
+
+.form-control input ,
+.form-control select,
+.form-control textarea {
+  border: 1px solid #777;
+  border-radius: 6px;
+  font-family: inherit;
+  padding: 20px;
+  display: block;
+  width: 95%;
+}
+
+
+.form-controlq {
+  text-align: left;
+  margin-bottom: 25px;
+  font-family: Verdana;
+
+}
+
+
+.form-controlq label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold
+  ;
+
+}
+
+
+
+
+.form-controlq input ,
+.form-controlq select,
+.form-controlq textarea {
+  border: 1px solid #777;
+  border-radius: 6px;
+  font-family: inherit;
+  padding-top: 10px;
+  padding-bottom: 80px;
+  padding-left: 10px;
+  display: block;
+  width: 95%;
+  
+
+
+}
+
+
+
+
+
+
+
+.form-controln {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+
+.form-controln label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: bold
+  ;
+
+}
+
+
+
+
+.form-controln input ,
+.form-controln select,
+.form-controln textarea {
+  border: 1px solid #777;
+  border-radius: 10px;
+  font-family: inherit;
+  padding: 20px;
+  display: block;
+  width: 95%;
+  
+
+
+}
+
+
+
+
+
+
+
+.center {
+margin: auto;
+width: 35%;
+
+padding: 10px;
+}
+.button {
+border-radius: 4px;
+background-color: green;
+border: none;
+color: #FFFFFF;
+text-align: center;
+font-size: 28px;
+padding: 15px;
+width: 200px;
+transition: all 0.5s;
+cursor: pointer;
+margin: 5px;
+align-items: center;
+object-position:25%;
+
+
+}
+
+.button span {
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+}
+
+.button span:after {
+content: '\00bb';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+
+.button:hover span {
+padding-right: 25px;
+}
+
+.button:hover span:after {
+opacity: 1;
+right: 0;
+}
+
+
+
+.tandc {
+position: relative;
+border-bottom: 2px dotted black;
+}
+
+.tandc .tandctext {
+visibility: hidden;
+width: 600px;
+background-color: #777;
+color: #fff;
+text-align: center;
+border-radius: 6px;
+padding: 5px;
+position: absolute;
+z-index: 1;
+bottom: 150%;
+left: 0%;
+margin-left: -60px;
+
+
+}
+
+.tandc .tandctext::after {
+content:"";
+position: absolute;
+top: 100%;
+left: 50%;
+margin-left: -5px;
+border-width: 5px;
+border-style: solid;
+border-color: black transparent transparent transparent;
+}
+
+.tandc:hover .tandctext {
+visibility: visible;
+
+}
+
+
+
+
+
+
+.Namei{
+border-color: none;
+width: 46%;
+float: left;
+padding: 0px;
+}
+
+
+.Emaili{
+border-color: none;
+width: 45%;
+float: right;
+margin-right: 5.2%;
+}
+.Titlei{
+border-color: none;
+clear:both
+
+
+}
+
+.Nfti{
+
+
+
+white-space: normal
+}
+
+
+
+
+@media only screen and (max-width: 890px) { 
+.tandc.tandctext{
+display: none;
+}
+.tandc{
+display: none;
+
+}
+
+.tooltip:hover .tooltiptext{
+visibility: hidden;
+}
+
+
+.center{
+width: auto;
+}
+}
+
+@media only screen and (max-width: 890px) { 
+.col-50{
+display: none;
+}
+}
+@media only screen and (max-width: 890px) {
+  .auth1{
+    display: none;
+  }} 
+
+  @media only screen and (max-width: 890px) {
+    .buttoncontainer{
+   
+    flex:1;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center
+    }}
+
+    
+        
+
+    @media only screen and (max-width: 890px) {
+      .twitterContainer{
+      
+      flex:1;
+      flex-direction: row;
+      align-items:center;
+      justify-content:center;
+      margin-right: 80px;
+      width: 20%;
+     
+      }}
+
+@media only screen and (min-width: 890px) { 
+
+.mobile{
+display: none;
+}
+}
+
+
+
+@media only screen and (max-width:890px){
+
+   .lg{
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center; 
+  
+  flex:1;
+  flex-direction: row;
+  align-items:center;
+  justify-content:center;
+  width:1000px
+}}
+
+
+
+@media only screen and (max-width:890px){
+  .center{
+    margin-right:50px ;
+    flex:1;
+  flex-direction: row;
+  align-items:center;
+  justify-content:center;
+  }}
+
+.col-50 {
+-ms-flex: 50%; 
+flex: 50%;}
+
+
+
+
+img{max-width: 100%;}
+html { font-size:100%; } 
+
+
+
+@media (min-width: 640px) { body {font-size:1rem;} } 
+@media (min-width:960px) { body {font-size:1.2rem;} } 
+@media (min-width:1100px) { body {font-size:1.5rem;} } 
