@@ -1,0 +1,18 @@
+POST http://localhost:1337/app/form
+Content-Type: application/json
+
+
+
+{
+
+    "fullname":"joseph",
+    "email":"joseph@twitter.com",
+    "title":"Manager",
+    "country":"USA",
+    "city":"Chicago",
+    "wallet":"none",
+    "twittername":"Joaeph stelburn",
+    "quote":"NFTs are great"
+
+
+}
